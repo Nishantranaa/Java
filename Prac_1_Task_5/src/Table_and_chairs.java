@@ -11,7 +11,6 @@ public class Table_and_chairs {
             System.out.print("*");
             System.out.println("");
 
-
         }
     }
 }

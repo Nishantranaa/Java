@@ -60,12 +60,13 @@ public class Table_and_chairs {
 
          System.out.print("*");
          System.out.print(" ");
+         System.out.print("*");
 
-         for(j=5; j>=1; j--){
-             System.out.print("*");
+         for(j=3; j>=1; j--){
+             System.out.print(" ");
          }
-
-
+         System.out.print("*");
+         System.out.println("");
 
 
 }

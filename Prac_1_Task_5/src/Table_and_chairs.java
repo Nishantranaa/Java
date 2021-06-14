@@ -13,7 +13,7 @@ public class Table_and_chairs {
 
         }
         System.out.print("*");
-        int a, b, c, d, f;
+        int a, b, c, d, f, g, h, j;
         for (a = 5; a >= 1; a--) {
             System.out.print(" ");
         }
@@ -26,24 +26,48 @@ public class Table_and_chairs {
         System.out.print("*");
         System.out.println("");
 
-        for (c=5; c>=1; c--) {
+        for (c = 5; c >= 1; c--) {
             System.out.print("*");
         }
         System.out.print(" ");
         System.out.print("*");
 
-        for(d=8; d>=1; d--){
+        for (d = 8; d >= 1; d--) {
             System.out.print(" ");
         }
+        System.out.print("*");
+        System.out.print(" ");
+
+        for (f = 4; f >= 1; f--) {
+            System.out.print("*");
+        }
+        System.out.print("*");
+        System.out.println("");
         System.out.print("*");
 
-        for(f=5; f>=1; f--){
+        for (g=3; g>=1; g--)
+        {
             System.out.print(" ");
         }
         System.out.print("*");
-    }
+        System.out.print(" ");
+        System.out.print("*");
+
+        for(h=8; h>=1; h--)
+        {
+            System.out.print(" ");
+        }
+
+         System.out.print("*");
+         System.out.print(" ");
+
+         for(j=5; j>=1; j--){
+             System.out.print("*");
+         }
+
+
+
+
 }
-
-
-
+}
 

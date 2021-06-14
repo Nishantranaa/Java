@@ -68,7 +68,34 @@ public class Table_and_chairs {
          System.out.print("*");
          System.out.println("");
 
+        System.out.print("*");
 
-}
+        for (g=3; g>=1; g--)
+        {
+            System.out.print(" ");
+        }
+        System.out.print("*");
+        System.out.print(" ");
+        System.out.print("*");
+
+        for(h=8; h>=1; h--)
+        {
+            System.out.print(" ");
+        }
+
+        System.out.print("*");
+        System.out.print(" ");
+        System.out.print("*");
+
+        for(j=3; j>=1; j--){
+            System.out.print(" ");
+        }
+        System.out.print("*");
+
+
+
+
+
+    }
 }
 

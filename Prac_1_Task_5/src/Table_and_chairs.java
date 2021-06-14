@@ -12,6 +12,18 @@ public class Table_and_chairs {
             System.out.println("");
 
         }
+        System.out.print("*");
+        int a, b;
+        for (a = 5; a >= 1; a--) {
+            System.out.print(" ");
+        }
+        for (b = 10; b >= 1; b--) {
+            System.out.print("*");
+        }
+        for (a = 5; a >= 1; a--) {
+            System.out.print(" ");
+        }
+        System.out.print("*");
     }
 }
 

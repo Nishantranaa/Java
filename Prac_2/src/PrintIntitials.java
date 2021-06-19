@@ -2,7 +2,7 @@
 
 public class PrintIntitials {
 
-    public static void main(String[] args) {
+    static void print_N() {
 
         int i, j, k, l;
         for (i = 0; i <= 8; i++) {
@@ -29,38 +29,48 @@ public class PrintIntitials {
             System.out.printf("\n");
 
 
-
         }
-        System.out.printf("\n");
+    }
 
+        static void print_R () {
 
-                int a, b, c, count = 11;
-                for (a = 0; a <= 11; a++) {
-                    for (b = 0; b <= 2; b++) {
+            int a, b, c, count = 11;
+            for (a = 0; a <= 11; a++) {
+                for (b = 0; b <= 2; b++) {
 
-                        System.out.printf("*");
-                    }
-                    for (c = 1; c <= 5; c++) {
-
-                        if (a >= 0 && a < 2 || a > 4 && a < 7 || a >= 2 && a <= 4 && c == 5 || a >= 7 && a <= 11 && c == count) {
-                            System.out.printf("**");
-                        }
-                        else {
-                            System.out.printf("  ");//two spaces
-                        }
-                    }
-
-                    if (a > 6) {
-                        count++;
-                    } else if (count > 5) {
-                        count = 1;
-
-                    }
-                    System.out.printf("\n");
+                    System.out.printf("*");
                 }
+                for (c = 1; c <= 5; c++) {
+
+                    if (a >= 0 && a < 2 || a > 4 && a < 7 || a >= 2 && a <= 4 && c == 5 || a >= 7 && a <= 11 && c == count) {
+                        System.out.printf("**");
+                    } else {
+                        System.out.printf("  ");//two spaces
+                    }
+                }
+
+                if (a > 6) {
+                    count++;
+                } else if (count > 5) {
+                    count = 1;
+
+                }
+                System.out.printf("\n");
+            }
+        }
+
+            public static void main(String[] args){
+
+           print_N();
+           System.out.println("\n");
+           print_R();
+
 
             }
         }
+
+
+
 
         //Printing letter r
 

@@ -5,7 +5,7 @@
 //How many eggs do you have?  13
 //Your number of eggs is 1 dozen and 1
 import java.util.*;
-public class Dozens {
+public class GrossAndDozens {
 
     public static void main (String[] args) {
 

@@ -19,19 +19,19 @@ public class GrossAndDozens {
 
         //System.out.println(dozen);
         int eggs_on_hand = 0;
-        eggs_on_hand = eggs - 12;
+        eggs_on_hand = eggs%12;
 
 
         if (dozen != 0 && eggs < 144 )
         {
 
-            System.out.print("Your number of eggs is " + dozen + " dozen and " + eggs_on_hand);
+            System.out.print("Your number of eggs is " + dozen + " dozen(s) and " + eggs_on_hand + " remaining eggs.");
         }
 
         else if (eggs >= 144){
 
                int gross = eggs/144;
-               System.out.println("Your number of eggs is, " + gross + " gross, " + eggs/12 + " dozen, " + eggs_on_hand);
+               System.out.println("Your number of eggs is, " + gross + " gross, " + ((eggs-gross*144)/12)  + " dozen(s), " + eggs_on_hand + " remaining eggs.");
 
         }
         else {
